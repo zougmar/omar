@@ -1,0 +1,114 @@
+#page {
+    width: 1000px;
+   margin-left:auto;/*centre alignment*/
+   margin-right:auto;/*centre alignment*/
+    border: 5px double black;/*we add a border, so the students are actually going to
+   see the box; instead of double we can use dotted/solid/dashed*/ background-color:
+   #ffffff;}
+   #logo {
+    width:300px;
+   margin-left:auto;/*centre alignment*/
+   margin-right:auto;}
+   #logo img {
+    width:290px;
+   }
+   #banner{
+    width:600px;
+    border-radius:10px;
+   }
+   ul {
+    width: 650px;
+    margin-left:auto;
+    margin-right:auto;
+   border-top: 2px solid #000;/*top border*/
+    border-bottom: 1px solid #000;/*bottom border*/
+   text-align: center;
+   padding:10px 20px 10px 20px;
+   }
+   li {
+    display: inline;/*display all of the list’s elements in one line*/
+   }
+   a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;/*turns off the default link’s underline*/
+    margin-right:15px;
+   }
+   /*we program the behaviour upon a cursor’s hover*/
+   a:hover {
+    color: #cc3333;
+    background-color: #ffffff;}
+    p {
+        text-align: center;
+        width: 700px;
+        margin: 20px auto 20px auto;
+        font-weight: normal;
+       }
+       body {
+        font-size: 80%;/*reduce the default font’s size*/
+        font-family: 'Quicksand', sans-serif;
+        letter-spacing: 2px;/*spacing between letters*/
+        background-image:url('/images/space3.jpg');
+        background-repeat: no-repeat;/*only one picture will be displayed*/
+        background-position: center; /*background’s center alignment*/
+        background-size: 100% ;
+       }
+       form {
+        margin-top: 20px;
+        width: 400px;
+        padding: 20px;
+        margin-left:auto;
+        margin-right:auto;
+       }
+       form input{
+        width: 330px;
+        height: 30px;
+       }
+       textarea{
+        width: 330px;
+       }
+       form label{
+        font-size: 18px;
+        color: #ffffff;
+       }
+       fieldset{
+        padding:20px;
+        margin-bottom:10px;
+       }
+       legend{
+        font-size:30px;
+        color: #ffffff;
+       }
+       .button1{
+        width:150px;
+        height:50px;
+        background-color: #4efa0a;
+        color: white;
+        padding: 15px 32px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition-duration: 0.4s;
+        border: 2px solid #4efa0a;
+        text-transform:uppercase;
+       }
+       .button1:hover {
+        background-color: white;
+        color: black;
+       }
+       .button2{
+        width:150px;
+        height:50px;
+        background-color: #fa3e0a;
+        color: white;
+        padding: 15px 32px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition-duration: 0.4s;
+        border: 2px solid #fa4a0a;
+        text-transform:uppercase;
+       }
+       .button2:hover {
+        background-color: white;
+        color: black;
+       }
+               
